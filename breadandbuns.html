@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html>
+<head><title >Home-pepperidgefarm</title>
+<link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+<style>
+
+	html
+	{
+		scroll-behavior: smooth;
+	}
+
+*{
+margin:0px;
+padding: 0px;
+font-family:lato;
+
+
+}
+::selection{
+	background-color: white;
+
+}
+.st{
+	position:sticky;
+	z-index: 1;
+	top:0;
+}
+a{
+text-decoration: none;
+color: black;
+
+}
+.container{
+	width: 100%;
+	height: 700px;
+	/*background-image: url(https://wallpaperaccess.com/full/1892327.jpg);*/
+	background-size: 100% 100%;
+	animation: animate 30s ease-in-out infinite;
+	position: relative;
+	text-align: center;
+}
+@keyframes animate{
+
+0%,100%
+{
+	background-image: url(https://wallpaperaccess.com/full/1892327.jpg);
+}
+25%
+{
+background-image: url(pictures/121.jpg);
+}
+50%
+{
+background-image: url(pictures/bakk1.jpg);
+}
+75%
+{
+background-image: url(pictures/111.jpg);
+}
+
+
+}
+.outer{
+	/*transition: 50% 50%;*/
+	top: 30%;
+    left: 35%;
+    position: absolute;
+    transform: translate(-50% -50%);
+    
+    background-image: linear-gradient(to right,#800000,#ffffff,#800000,pink);
+	-webkit-background-clip:text;
+	animation:animat 30s linear infinite;
+	background-size: 1000%;
+	color: transparent;
+
+    
+
+}
+.b1{
+	padding: 12px 22px;
+	margin-top: 20px;
+	background-color: #800000;
+	color: white;
+	letter-spacing: 3px;
+	border: none;
+	cursor: pointer; 
+
+}
+.b1:hover{
+	background-color: white;
+	border: 2px red solid;
+	color: #800000;
+	font-weight: bold;
+}
+ul{
+	list-style: none;
+	line-height: 25px;
+}
+
+@keyframes animat
+{
+0%
+{
+	background-position: 0% 100%;
+}
+50%
+{
+	background-position: 100% 0%;
+}
+100%
+{
+	background-position: 0% 100%;
+}
+}
+
+#cont1 ul li
+{
+	
+	width: 180px;
+	border:1px solid white;
+	height: 40px;
+	line-height: 50px;
+	text-align: center;
+	
+	color:#800000;
+	font-size:18px;
+	position:relative; 
+	float: left;
+	
+
+}
+#cont1 ul
+{
+	list-style: none;
+
+
+}
+
+#cont1 ul li:hover
+{
+	background-color: white;
+}
+#cont1 ul ul
+{
+	display:none;
+
+}
+#cont1 ul li:hover > ul
+{
+	display: block;
+
+}
+#cont1 ul ul ul
+{
+	position: absolute;
+	margin-left: 180px;
+	top:0px; 
+
+}
+.rr
+{
+
+	background-image: url(pictures/121.jpg);
+	background-size: cover;
+	
+
+}
+
+.ee
+{
+
+	background-image: url(https://akm-img-a-in.tosshub.com/sites/dailyo//story/embed/201605/bread-stoory_052516072257.jpg);
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    margin:0;
+    opacity: 1;
+    height: 400px;
+	width:100%;
+	bottom: 0;
+	border:1px solid;
+
+}
+.tt
+{
+
+	background-image: url(https://alexandracooks.com/wp-content/uploads/2016/11/Bread-Toast-Crumbs_highres-cover-only-768x861.jpg);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    margin:0;
+    opacity: 1;
+    height: 450px;
+	width:100%;
+	bottom: 0;
+
+}
+.tta:hover
+{
+background-color:white;
+color:  #800000
+}
+.tt1
+{
+
+	background-image: url(https://d3nuqriibqh3vw.cloudfront.net/bread_aotw.jpg);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    margin:0;
+    opacity: 1;
+    height: 450px;
+	width:100%;
+	bottom: 0;
+
+}
+.tt2
+{
+
+	background-image: url(https://www.lincolnbarbour.com/wp-content/uploads/2013/02/Fleischmanns-Yeast-Science-Campaign1.jpg);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    margin:0;
+    opacity: 1;
+    height: 450px;
+	width:100%;
+	bottom: 0;
+
+}
+
+.tt4
+{
+
+	background-image: url(https://houseofnasheats.com/wp-content/uploads/2018/04/Sweet-Molasses-Brown-Bread-5.jpg);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    margin:0;
+    opacity: 1;
+    height: 450px;
+	width:100%;
+	bottom: 0;
+
+}
+.tt5
+{
+
+	background-image: url(https://platedcravings.com/wp-content/uploads/2019/07/White-Bread-Plated-Cravings-11.jpg);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    margin:0;
+    opacity: 1;
+    height: 450px;
+	width:100%;
+	bottom: 0;
+
+}
+.tt6
+{
+
+	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRF3XRdMR4l8xLCxeKcZhdELYam7xsQBiagEdVuQClauWKu2LxI&usqp=CAU);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    margin:0;
+    opacity: 1;
+    height: 450px;
+	width:100%;
+	bottom: 0;
+
+}
+
+.tt7
+{
+
+	background-image: url(https://dearcrissy.com/wp-content/uploads/2017/01/easy-homemade-cornbread-4-480x360.jpg);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    margin:0;
+    opacity: 1;
+    height: 450px;
+	width:100%;
+	bottom: 0;
+
+}
+
+.tt8
+{
+
+	background-image: url(https://i.pinimg.com/originals/31/bb/11/31bb113d1c722d73b3a59ab6b76395c5.jpg);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    margin:0;
+    opacity: 1;
+    height: 450px;
+	width:100%;
+	bottom: 0;
+
+}
+
+.tt9
+{
+
+	background-image: url(https://greatlowcarb.com/wp-content/uploads/2018/08/L1002821-copy.jpg);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    margin:0;
+    opacity: 1;
+    height: 450px;
+	width:100%;
+	bottom: 0;
+
+}
+.tt10
+{
+
+	background-image: url(https://www.daringgourmet.com/wp-content/uploads/2018/09/Rosemary-Bread-1.jpg);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    margin:0;
+    opacity: 1;
+    height: 450px;
+	width:100%;
+	bottom: 0;
+
+}
+.tt11
+{
+
+	background-image: url(https://d3eh3svpl1busq.cloudfront.net/eSLhakvQipAhEWtksvxrnpAZbKWwysTe/assets/static/source/rev-6b98c20/wp-content/uploads/2018/01/multigrain-sandwich-bread-5.jpg);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    margin:0;
+    opacity: 1;
+    height: 450px;
+	width:100%;
+	bottom: 0;
+
+}
+.tt12
+{
+
+	background-image: url(https://under500calories.com/photos/750x900/20029.jpg);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    margin:0;
+    opacity: 1;
+    height: 450px;
+	width:100%;
+	bottom: 0;
+
+}
+
+.gotopbtn
+{
+	position: fixed;
+	width: 50px;
+	height: 50px;
+	background:white;
+	bottom:45px;
+	right: 1px;
+	text-decoration: none;
+	text-align: center;line-height: 50px;
+	color: white;
+	font-size: 22px;
+	opacity: 0.6;
+
+}
+
+
+</style>
+	<meta charset="utf-8">
+</head>
+<body>
+<header  class="st">
+	<div>
+<div style="background-color: #800000; height:10px"></div>
+<div style="background-color: #f6f5ee; height:10px; padding: 18px;">
+	<div><a href="">
+	<img src="https://img.icons8.com/material-sharp/24/000000/facebook-f.png" width="15px"></a>
+<a href=""><img src="https://img.icons8.com/ios-glyphs/30/000000/instagram.png" width="15px"></a>
+<a href=""><img src="https://img.icons8.com/ios-glyphs/30/000000/twitter.png" width="15px"></a>
+<a href=""><img src="https://img.icons8.com/windows/32/000000/pinterest.png" width="15px"></a>
+<a href=""><img src="https://img.icons8.com/material/24/000000/youtube-play--v1.png" width="15px"></a>
+
+	<span style="position: absolute;right: 0; font-size: 13px;margin-left: 10px;margin-right: 25px;"><a href="contactus.html">CONTACT US</a></span>
+
+</div>
+
+
+</div>
+<!-- main div of menus -->
+<div style="height:40px;border: 2px solid #black; padding:10px;background-color: white;position: relative;"> 
+
+<div id="cont1" style="margin:0px;padding:0px;text-transform: capitalize;position: absolute;">
+	<ul>
+		
+   <li>PRODUCTS
+        <ul>
+	       
+	     <a href="cookiesandbiscuit.html"><li>COOKIES & BISCUITS</li></a>
+	        <li> CAKES
+                           <ul>
+                 <a href="cake.html">  <li>BIRTHDAY CAKE</li></a>
+                 <a href="cake.html">   <li>WEDDING CAKES</li></a>
+                   <a href="cake.html"> <li>CHOCOLATE CAKE</li></a>
+            <a href="cake.html">  <li>PINE APPLE</li></a>
+            <a href="cake.html">  <li>STRAWBERRY CAKE</li></a>
+             <a href="cake.html"> <li>CREAM CAKE</li></a>
+            <a href="cake.html"><li>OTHERS</li></a>
+
+
+
+                           </ul>
+
+
+	        </li>
+	         <a href="#"><li>BREAD & BUNS</li></a>
+	        <a href="chocolate.html"><li>CHOCOLATES
+                
+           </li></a>
+           
+
+	</ul>
+
+    </li> <li>&nbsp &nbsp &nbsp</li>
+	<li>ABOUT US
+		<ul>
+         <a href="aboutus.html"><li>OUR TEAM</li>
+            
+
+
+        </ul>
+		</li>
+
+
+		
+		
+		<a href="index.html"><li><img src="pictures/logo.png" width="225px;" style="margin-left: 60px;margin-top:-50px;"></li>
+		</a>
+	<a href="ourservices.html"><li style="margin-left: 170px;color:white;">OUR SERVICES</li></a>
+	<li>&nbsp &nbsp &nbsp</li>
+	<a href="ourblog.html"><li>OUR BLOG
+		</li></a>
+
+	</ul>
+	
+
+
+
+
+
+
+</div>
+</div>
+</div>
+
+
+</header>
+
+<div class="ee">
+</div>
+ <div style="height: 75vh;font-weight: 100%;"> 
+
+<div style="width: 80%; height: 30px;b;text-align: center;margin-left: 10%;font-style: Arial;font-size: 20px;margin-top: 35px;">
+PRODUCT CATEGORIES<br>
+<h1>BREAD AND BUNS</h1><br>
+<hr width="100%" color="gray" >
+</div>
+<div style="height: 500px;width: 100%;position: relative;">
+
+<span class="tt" style="height: 450px; width: 25%;background-color:white;position: absolute;margin:30px 0px 10px 140px;">
+	<a href="#">
+		<div class="tta" ><div style="height: 70px;width: 80%;background-color: white;margin:300px 5px 10px 35px;opacity: 0.8;padding-top: 32px;text-align: center;line-height: 10px;">
+		<h3>BECOME A MEMBER</h3><br>Special Member Discount
+	</div></div>
+</a>
+</span>
+
+
+
+<span class="tt1" style="height: 450px; width: 25%;position: absolute;margin:30px 0px 10px 575px;background-color: white;">
+	<div class="tta"><div style="height: 70px;width: 80%;background-color: white;margin:180px 5px 10px 35px;opacity: 0.8;padding-top: 32px;text-align: center;line-height: 18px;">
+		<h3>GIFTS & COMBOS</h3>order now
+	</div></div>order now
+</span>
+
+
+<span class="tt2" style="height: 450px; width: 25%;position: absolute;margin:30px 0px 10px 1000px;background-color: white;">
+	<div class="tta"><div style="height: 70px;width: 80%;background-color: white;margin:300px 5px 10px 35px;opacity: 0.8;padding-top: 32px;text-align: center;line-height: 10px;">
+		<h3>SPECIAL OFFER</h3><br>order now
+	</div></div>
+
+
+</span>
+</div>
+</div>
+
+<!-- cake category start here -->
+
+<div style="height: 70vh;font-weight: 100%;"> 
+
+
+<div title="ALMOND-COOKIES" style="height: 500px;width: 100%;position: relative;">
+
+<span class="tt4" style="height: 450px; width: 29%;background-color:white;position: absolute;margin:30px 0px 10px 80px;">
+	<a href="#">
+		<div class="tta" ><div style="height: 70px;width: 80%;background-color: white;margin:300px 5px 10px 35px;opacity: 0.8;padding-top: 32px;text-align: center;line-height: 18px;">
+		<h3>BROWN BREAD</h3>order now
+	</div></div>
+</a>
+</span>
+
+
+
+<span class="tt5" style="height: 450px; width: 29%;position: absolute;margin:30px 0px 10px 525px;background-color: white;">
+	<div class="tta"><div style="height: 70px;width: 80%;background-color: white;margin:180px 5px 10px 50px;opacity: 0.8;padding-top: 32px;text-align: center;line-height: 18px;">
+		<h3>WHITE BREAD</h3>order now
+	</div></div>
+</span>
+
+
+<span class="tt6" style="height: 450px; width: 29%;position: absolute;margin:30px 0px 10px 970px;background-color: white;">
+	<div class="tta"><div style="height: 70px;width: 80%;background-color: white;margin:300px 5px 10px 35px;opacity: 0.8;padding-top: 32px;text-align: center;line-height: 10px;">
+		<h3>GARLIC BREAD</h3><br>order now
+	</div></div>
+
+
+</span>
+</div>
+
+
+<!-- cake category start here div 1-->
+
+<div style="height: 70vh;font-weight: 100%;margin-top: 30px;"> 
+
+
+<div title="ALMOND-COOKIES-500-g" style="height: 500px;width: 100%;position: relative;">
+
+<span class="tt7" style="height: 450px; width: 29%;background-color:white;position: absolute;margin:30px 0px 10px 80px;">
+	<a href="#">
+		<div class="tta" ><div style="height: 70px;width: 80%;background-color: white;margin:300px 5px 10px 35px;opacity: 0.8;padding-top: 32px;text-align: center;line-height: 10px;">
+		<h3>CORN BREAD</h3><br>order now
+	</div></div>
+</a>
+</span>
+
+
+
+<span title="SUGARFREE-ALMOND-500-g"class="tt8" style="height: 450px; width: 29%;position: absolute;margin:30px 0px 10px 525px;background-color: white;">
+	<div class="tta"><div style="height: 70px;width: 80%;background-color: white;margin:180px 5px 10px 35px;opacity: 0.8;padding-top: 32px;text-align: center;line-height: 18px;">
+		<h3>PROTUGUESE BREAD</h3>order now
+	</div></div>
+</span>
+
+
+<span class="tt9" style="height: 450px; width: 29%;position: absolute;margin:30px 0px 10px 970px;background-color: white;">
+	<div class="tta"><div style="height: 70px;width: 80%;background-color: white;margin:300px 5px 10px 35px;opacity: 0.8;padding-top: 32px;text-align: center;line-height: 10px;">
+		<h3>PUMPERNICKEL BREAD</h3><br>order now
+	</div></div>
+
+
+</span>
+</div>
+<!-- div 2 -->
+
+
+<div style="height: 500px;width: 100%;position: relative;margin-top: 30px;">
+
+<span class="tt10" style="height: 450px; width: 29%;background-color:white;position: absolute;margin:30px 0px 10px 80px;">
+	<a href="#">
+		<div class="tta" ><div style="height: 70px;width: 80%;background-color: white;margin:300px 5px 10px 35px;opacity: 0.8;padding-top: 32px;text-align: center;line-height: 10px;">
+		<h3>SOURDOUGH BREAD</h3><br>order now
+	</div></div>
+</a>
+</span>
+
+
+
+<span class="tt11" style="height: 450px; width: 29%;position: absolute;margin:30px 0px 10px 525px;background-color: white;">
+	<div class="tta"><div style="height: 70px;width: 80%;background-color: white;margin:180px 5px 10px 35px;opacity: 0.8;padding-top: 32px;text-align: center;line-height: 18px;">
+		<h3>MULTIGRAIN BREAD</h3>order now
+	</div></div>
+</span>
+
+
+<span class="tt12" style="height: 450px; width: 29%;position: absolute;margin:30px 0px 10px 970px;background-color: white;">
+	<div class="tta"><div style="height: 70px;width: 80%;background-color: white;margin:300px 5px 10px 35px;opacity: 0.8;padding-top: 32px;text-align: center;line-height: 10px;">
+		<h3>CIABATTA BREAD</h3><br>order now
+	</div></div>
+
+
+</span>
+</div>
+<!-- div 3 -->
+
+
+<footer>
+	<div style="background-color: #e5e5e6;height: 10px;margin-top: 0px;width: 100%;">
+	</div>
+	<div style="background-color: #464646;height: 500px;width: 100%;">
+		
+    <span style="height: 300px;width:20%;margin:100px 5px 50px 50px;display: inline-block;position: relative;color: white;">
+    	<div style="position: absolute;height: 100px;width: 100%;margin-left: 8px;">
+    		<b>N E W S L E T T E R</b><br>Stay updated with our latest offers.
+    	</div>
+    	<div style="position: absolute;height: 100px;width: 100%;margin-top: 100px;text-align: center;">
+    		<form><input type="email" name="email" id="email" autocomplete="off" required placeholder="your.address@gmail.com" 
+    			style="height: 40px;width: 90%;border-radius: 3px;padding: 5px;font-size: 16px;">
+    			<div style="text-align: left;margin-left: 8px;">
+    			<input type="Submit" name="SUBSCRIBE" id="SUBSCRIBE" autocomplete="off"
+    			style="background-color: #e5e5e6;height: 50px;width: 37%;border-radius: 5px;padding: 5px;font-size: 16px;margin-top: 5px;font-style: bold;" value="SUBSCRIBE";>
+    		</div>
+    		</form>
+    	</div>
+
+    </span>
+       <span style="height: 300px;width:15%;margin:100px 5px 50px 5px;display: inline-block;position: relative;color: white;">
+<div style="height: 300px;width: 100%;position: absolute;">
+
+
+<ul >
+	<b><li>P R O D U C T S</li></b>
+	<br><br>
+<li>- Belgian chocolates</li>
+<li>- Chocolate bars</li>
+<li>- Cookies & Biscuits</li>
+<li>- Cream Cakes</li>
+<li>- Gift Hampers</li>
+<li>- Jams</li>
+<li>- Rich English Dry Cakes</li>
+<li>- Turkish Baklava</li>
+</ul>
+
+
+</div>
+
+
+
+    </span>
+       <span style="height: 300px;width:15%;margin:100px 5px 50px 5px;display: inline-block;position: relative;color: white;">
+
+<div style="height: 300px;width: 100%;position: absolute;">
+
+
+<ul >
+	<li><span style="word-spacing: 6px;font-weight: bold;color: white;">OUR STORES</span></li>
+	<br><br>
+<li>Chandigarh</li>
+<li>Punjab</li>
+<li>Delhi</li>
+<li>Mumbai</li>
+
+</ul>
+
+
+</div>
+
+
+    </span>
+       <span style="height: 300px;width:15%;margin:100px 5px 50px 5px;display: inline-block;position: relative;color: white;">
+<div style="height: 300px;width: 100%;position: absolute;">
+
+
+<ul >
+	<li><span style="word-spacing: 6px;font-weight: bold;color: white;">CONTACT US</span></li>
+	<br><br>
+<li>Call at Toll Free-</li>
+<li>1800 137 3232</li>
+<li>email us at-</li>
+<li>info@bake&love</li>
+
+
+</ul>
+
+
+</div>
+
+
+    </span>
+
+
+   <span style="height: 300px;width:15%;margin:100px 5px 50px 5px;display: inline-block;position: relative;color: white;">
+   	<div style="height: 300px;width: 100%;position: absolute;">
+
+
+<ul >
+	<li><span style="word-spacing: 6px;font-weight: bold;color: white;">FOLLOW US</span></li>
+	<br><br>
+<li> <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+width="20"
+viewBox="0 0 172 172"
+style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#ffffff"><path d="M110.08,37.84h17.2c1.89888,0 3.44,-1.54112 3.44,-3.44v-23.17528c0,-1.80256 -1.38632,-3.3024 -3.182,-3.42968c-5.47304,-0.38872 -16.16456,-0.91504 -23.85296,-0.91504c-21.12504,0 -34.88504,12.6592 -34.88504,35.66592v22.81408h-24.08c-1.89888,0 -3.44,1.54112 -3.44,3.44v24.08c0,1.89888 1.54112,3.44 3.44,3.44h24.08v65.36c0,1.89888 1.54112,3.44 3.44,3.44h24.08c1.89888,0 3.44,-1.54112 3.44,-3.44v-65.36h24.84368c1.7544,0 3.22672,-1.31752 3.41936,-3.0616l2.67632,-24.08c0.22704,-2.03648 -1.36912,-3.8184 -3.41936,-3.8184h-27.52v-17.2c0,-5.70008 4.61992,-10.32 10.32,-10.32z"></path></g></g></svg> Facebook</li>
+<li><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+width="20"
+viewBox="0 0 172 172"
+style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#ffffff"><path d="M55.04,10.32c-24.65626,0 -44.72,20.06374 -44.72,44.72v61.92c0,24.65626 20.06374,44.72 44.72,44.72h61.92c24.65626,0 44.72,-20.06374 44.72,-44.72v-61.92c0,-24.65626 -20.06374,-44.72 -44.72,-44.72zM55.04,17.2h61.92c20.9375,0 37.84,16.9025 37.84,37.84v61.92c0,20.9375 -16.9025,37.84 -37.84,37.84h-61.92c-20.9375,0 -37.84,-16.9025 -37.84,-37.84v-61.92c0,-20.9375 16.9025,-37.84 37.84,-37.84zM127.28,37.84c-3.79972,0 -6.88,3.08028 -6.88,6.88c0,3.79972 3.08028,6.88 6.88,6.88c3.79972,0 6.88,-3.08028 6.88,-6.88c0,-3.79972 -3.08028,-6.88 -6.88,-6.88zM86,48.16c-20.85771,0 -37.84,16.98229 -37.84,37.84c0,20.85771 16.98229,37.84 37.84,37.84c20.85771,0 37.84,-16.98229 37.84,-37.84c0,-20.85771 -16.98229,-37.84 -37.84,-37.84zM86,55.04c17.13948,0 30.96,13.82052 30.96,30.96c0,17.13948 -13.82052,30.96 -30.96,30.96c-17.13948,0 -30.96,-13.82052 -30.96,-30.96c0,-17.13948 13.82052,-30.96 30.96,-30.96z"></path></g></g></svg> Instagram</li>
+<li> <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+width="20"
+viewBox="0 0 172 172"
+style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#ffffff"><path d="M84.495,11.5025c-3.38625,0 -10.57531,0.52406 -18.3825,3.9775c-7.80719,3.45344 -16.24594,10.03781 -21.5,21.8225c-3.96406,8.88219 -2.795,21.80906 -2.15,32.1425c0.05375,0.76594 0.06719,1.42438 0.1075,2.15c-0.3225,0.14781 -0.04031,0.215 -1.075,0.215c-1.55875,0 -3.64156,-0.51062 -6.235,-1.72c-1.03469,-0.48375 -2.13656,-0.645 -3.225,-0.645c-1.97531,0 -3.91031,0.59125 -5.59,1.6125c-1.67969,1.02125 -3.29219,2.60688 -3.7625,5.0525c-0.28219,1.505 0.04031,3.7625 1.505,5.59c1.46469,1.8275 3.73563,3.31906 7.31,4.73c0.77938,0.30906 1.57219,0.60469 2.365,0.86c1.6125,0.51063 3.50719,1.06156 4.945,1.8275c1.43781,0.76594 2.28438,1.66625 2.58,2.365c0.3225,0.7525 0.41656,1.92156 -0.645,4.085c-0.04031,0.06719 -0.08062,0.14781 -0.1075,0.215c-0.01344,0.05375 -0.06719,0.09406 -0.1075,0.215c-0.43,0.9675 -9.84969,21.5 -29.455,24.725c-2.52625,0.41656 -4.32687,2.62031 -4.1925,5.16c0.04031,0.73906 0.28219,1.53188 0.5375,2.15c0.95406,2.24406 2.99656,3.89688 6.3425,5.375c3.09063,1.37063 7.90125,2.58 14.2975,3.655c0.16125,0.44344 0.37625,1.27656 0.645,2.4725c0,0.02688 -0.01344,0.08063 0,0.1075c0.24188,1.11531 0.47031,2.33813 0.86,3.655c0.38969,1.34375 1.38406,2.66063 2.58,3.3325c1.19594,0.67188 2.32469,0.7525 3.01,0.7525c1.42438,0 2.60688,-0.29562 3.87,-0.5375c2.08281,-0.40312 4.59563,-0.86 7.8475,-0.86c1.80063,0 3.68188,0.12094 5.59,0.43c3.26531,0.5375 6.47688,2.66063 10.32,5.375c5.56313,3.93719 12.24156,8.7075 22.2525,8.7075c0.17469,0 0.36281,-0.09406 0.5375,-0.1075c0.17469,0.01344 0.36281,0 0.5375,0c0.28219,0.01344 0.57781,0.1075 0.86,0.1075c10.01094,0 16.67594,-4.77031 22.2525,-8.7075c3.82969,-2.71437 7.05469,-4.8375 10.32,-5.375c1.90813,-0.30906 3.78938,-0.43 5.59,-0.43c3.14438,0 5.63031,0.40313 7.955,0.86c1.47813,0.29563 2.60688,0.43 3.7625,0.43h0.215c1.06156,0 2.28438,-0.29562 3.3325,-1.075c1.04813,-0.77937 1.74688,-1.89469 2.0425,-2.9025c0.38969,-1.31687 0.60469,-2.58 0.86,-3.7625c0.28219,-1.31687 0.49719,-2.02906 0.645,-2.4725c6.39625,-1.075 11.20688,-2.28437 14.2975,-3.655c3.34594,-1.47812 5.38844,-3.14437 6.3425,-5.375c0.28219,-0.645 0.49719,-1.41094 0.5375,-2.15c0.13438,-2.52625 -1.67969,-4.74344 -4.1925,-5.16c-9.89,-1.62594 -17.14625,-7.57875 -22.0375,-13.33c-4.86437,-5.72437 -7.28312,-11.19344 -7.4175,-11.5025c0,-0.04031 0,-0.06719 0,-0.1075c-0.02687,-0.06719 -0.06719,-0.14781 -0.1075,-0.215c-1.075,-2.16344 -1.075,-3.31906 -0.7525,-4.085c0.29563,-0.69875 1.14219,-1.59906 2.58,-2.365c1.43781,-0.76594 3.31906,-1.31687 4.945,-1.8275c0.80625,-0.25531 1.6125,-0.56437 2.365,-0.86c3.13094,-1.23625 5.28094,-2.52625 6.7725,-4.085c1.49156,-1.55875 2.17688,-3.49375 2.15,-5.16c-0.06719,-3.52062 -2.6875,-5.85875 -5.6975,-6.9875l-0.1075,-0.1075c-0.02687,-0.01344 -0.08062,0.01344 -0.1075,0c-1.23625,-0.49719 -2.53969,-0.7525 -3.87,-0.7525c-0.90031,0 -2.15,0.04031 -3.655,0.7525c-2.33812,1.10188 -4.3,1.63938 -5.805,1.72c-0.09406,0 -0.01344,0 -0.1075,0c-0.09406,0 -0.02687,0.01344 -0.1075,0c-0.44344,-0.05375 -0.30906,-0.13437 -0.5375,-0.215c0.04031,-0.59125 0.06719,-1.11531 0.1075,-1.72v-0.43c0.65844,-10.33344 1.81406,-23.24687 -2.15,-32.1425c-5.25406,-11.78469 -13.67937,-18.47656 -21.5,-21.93c-7.82062,-3.45344 -14.98281,-3.87 -18.3825,-3.87h-0.3225c-0.04031,0 -0.06719,0 -0.1075,0zM84.495,18.3825h3.01c2.75469,0 9.00313,0.43 15.5875,3.3325c6.58438,2.9025 13.51813,8.18344 18.06,18.3825c2.58,5.77813 2.16344,18.5975 1.505,28.9175v0.43c-0.09406,1.43781 -0.25531,2.83531 -0.3225,4.1925c-0.02687,0.9675 0.36281,1.90813 1.075,2.58c0.5375,0.55094 2.795,2.32469 6.5575,2.4725c0.04031,0 0.06719,0 0.1075,0c0.04031,0 0.06719,0 0.1075,0c2.78156,-0.1075 5.6975,-0.95406 8.7075,-2.365c0.08063,-0.04031 0.45688,-0.1075 0.7525,-0.1075c0.43,0 0.99438,0.1075 1.29,0.215c0.02688,0.01344 0.08063,-0.01344 0.1075,0c0.06719,0.04031 0.14781,0.08063 0.215,0.1075c0.80625,0.28219 1.1825,0.60469 1.29,0.7525c0.02688,0.02688 -0.01344,0.09406 0,0.1075c-0.04031,0.06719 -0.08062,0.06719 -0.215,0.215c-0.49719,0.52406 -1.86781,1.46469 -4.4075,2.4725c-0.41656,0.16125 -1.04812,0.40313 -1.8275,0.645c-1.62594,0.51063 -3.93719,1.20938 -6.1275,2.365c-2.19031,1.15563 -4.50156,2.86219 -5.6975,5.6975c-1.27656,2.99656 -0.73906,6.28875 0.7525,9.46c0.01344,0.05375 -0.01344,0.06719 0,0.1075c0.05375,0.14781 0.1075,0.22844 0.1075,0.215c0.30906,0.71219 2.91594,6.78594 8.4925,13.33c5.01219,5.88563 12.63125,11.97281 22.79,14.62c-0.43,0.28219 -0.13437,0.26875 -0.9675,0.645c-2.4725,1.08844 -6.71875,2.2575 -13.6525,3.3325c-1.96187,0.29563 -3.42656,2.15 -3.9775,3.44c-0.55094,1.29 -0.83312,2.56656 -1.1825,4.1925c-0.16125,0.7525 -0.36281,1.43781 -0.5375,2.15c-0.47031,-0.04031 -0.86,-0.04031 -1.72,-0.215c-2.49937,-0.48375 -5.52281,-0.9675 -9.245,-0.9675c-2.20375,0 -4.4075,0.16125 -6.665,0.5375c-5.28094,0.88688 -9.39281,3.84313 -13.2225,6.5575c-5.59,3.93719 -10.34687,7.4175 -18.275,7.4175c-0.3225,0 -0.645,0.01344 -0.9675,0c-0.14781,-0.01344 -0.28219,-0.01344 -0.43,0c-0.13437,0.01344 -0.37625,0 -0.5375,0c-7.92812,0 -12.71187,-3.48031 -18.275,-7.4175c-3.84312,-2.71437 -7.94156,-5.68406 -13.2225,-6.5575c-2.2575,-0.37625 -4.46125,-0.5375 -6.665,-0.5375c-3.96406,0 -7.16219,0.56438 -9.245,0.9675c-0.83312,0.16125 -1.14219,0.25531 -1.6125,0.3225c-0.18812,-0.7525 -0.47031,-1.46469 -0.645,-2.2575c-0.3225,-1.47812 -0.5375,-2.78156 -1.075,-4.085c-0.26875,-0.645 -0.645,-1.35719 -1.29,-2.0425c-0.645,-0.68531 -1.59906,-1.23625 -2.6875,-1.3975c-6.92031,-1.075 -11.2875,-2.35156 -13.76,-3.44c-0.86,-0.37625 -0.5375,-0.34937 -0.9675,-0.645c21.43281,-5.53625 30.75844,-26.74062 31.2825,-27.95c0.04031,-0.08062 0.06719,-0.13437 0.1075,-0.215c0.01344,-0.04031 -0.01344,-0.05375 0,-0.1075c1.49156,-3.17125 2.02906,-6.46344 0.7525,-9.46c-1.20937,-2.83531 -3.50719,-4.54187 -5.6975,-5.6975c-2.19031,-1.15562 -4.39406,-1.85437 -6.02,-2.365c-0.79281,-0.25531 -1.53187,-0.48375 -1.935,-0.645c-2.88906,-1.14219 -4.15219,-2.23062 -4.515,-2.6875c0,0.06719 -0.08062,-0.22844 0.43,-0.5375c0.56438,-0.33594 1.55875,-0.5375 2.0425,-0.5375c0.26875,0 0.25531,0.01344 0.215,0c3.225,1.505 6.28875,2.365 9.245,2.365c4.085,0 6.53063,-1.77375 7.2025,-2.4725c0.67188,-0.68531 1.02125,-1.62594 0.9675,-2.58c-0.08062,-1.505 -0.22844,-3.03687 -0.3225,-4.6225c-0.645,-10.33344 -1.075,-23.13937 1.505,-28.9175c4.54188,-10.18562 11.38156,-15.48 17.9525,-18.3825c6.57094,-2.9025 12.94031,-3.3325 15.695,-3.3325z"></path></g></g></svg> Snapchat</li>
+<li><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+width="20"
+viewBox="0 0 172 172"
+style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#ffffff"><path d="M117.7125,18.8125c-20.57281,0 -37.3025,16.72969 -37.3025,37.3025c0,1.23625 0.30906,2.44563 0.43,3.655c-25.43719,-2.43219 -47.93156,-14.68719 -63.21,-33.4325c-0.71219,-0.90031 -1.81406,-1.38406 -2.96969,-1.30344c-1.14219,0.08062 -2.16344,0.73906 -2.72781,1.73344c-3.21156,5.52281 -5.0525,11.87875 -5.0525,18.705c0,8.26406 2.95625,15.82938 7.525,22.0375c-0.88687,-0.38969 -1.85437,-0.60469 -2.6875,-1.075c-1.06156,-0.56437 -2.33812,-0.5375 -3.37281,0.08063c-1.03469,0.61812 -1.66625,1.73344 -1.67969,2.92937v0.43c0,12.67156 6.5575,23.67688 16.2325,30.4225c-0.1075,-0.01344 -0.215,0.02688 -0.3225,0c-1.1825,-0.20156 -2.37844,0.215 -3.17125,1.11531c-0.79281,0.90031 -1.04812,2.15 -0.69875,3.29219c3.84313,11.94594 13.6525,21.07 25.8,24.4025c-9.675,5.75125 -20.89531,9.1375 -33.0025,9.1375c-2.62031,0 -5.13312,-0.13437 -7.6325,-0.43c-1.6125,-0.215 -3.15781,0.72563 -3.69531,2.2575c-0.55094,1.53188 0.05375,3.23844 1.43781,4.085c15.52031,9.95719 33.94313,15.8025 53.75,15.8025c32.10219,0 57.28406,-13.41062 74.175,-32.5725c16.89094,-19.16187 25.6925,-44.04812 25.6925,-67.295c0,-0.98094 -0.08062,-1.935 -0.1075,-2.9025c6.30219,-4.82406 11.9325,-10.48125 16.34,-17.0925c0.87344,-1.27656 0.77938,-2.98312 -0.22844,-4.16562c-0.99438,-1.1825 -2.67406,-1.54531 -4.07156,-0.88688c-1.77375,0.79281 -3.84312,0.87344 -5.6975,1.505c2.44563,-3.26531 4.54188,-6.78594 5.805,-10.75c0.43,-1.35719 -0.04031,-2.84875 -1.15562,-3.73562c-1.11531,-0.87344 -2.67406,-0.98094 -3.89688,-0.24188c-5.87219,3.48031 -12.37594,5.92594 -19.2425,7.4175c-6.665,-6.235 -15.43969,-10.4275 -25.2625,-10.4275zM117.7125,25.6925c8.77469,0 16.70281,3.74906 22.2525,9.675c0.83313,0.86 2.05594,1.22281 3.225,0.9675c4.48813,-0.88687 8.74781,-2.19031 12.9,-3.87c-2.39187,3.225 -5.34812,5.97969 -8.815,8.0625c-1.57219,0.76594 -2.31125,2.58 -1.73344,4.23281c0.56437,1.63937 2.28437,2.59344 3.99094,2.21719c3.44,-0.41656 6.50375,-1.81406 9.7825,-2.6875c-2.94281,3.18469 -6.16781,6.06031 -9.675,8.6c-0.95406,0.69875 -1.47812,1.8275 -1.3975,3.01c0.05375,1.3975 0.1075,2.78156 0.1075,4.1925c0,21.5 -8.25062,44.84094 -23.9725,62.6725c-15.72187,17.83156 -38.8075,30.315 -69.015,30.315c-13.71969,0 -26.67344,-3.03687 -38.3775,-8.385c14.5125,-1.11531 27.89625,-6.24844 38.7,-14.7275c1.12875,-0.90031 1.57219,-2.40531 1.11531,-3.77594c-0.45688,-1.37063 -1.72,-2.31125 -3.15781,-2.35156c-11.34125,-0.20156 -20.84156,-6.79937 -25.9075,-16.125c0.18813,0 0.34938,0 0.5375,0c3.39969,0 6.75906,-0.43 9.89,-1.29c1.505,-0.44344 2.53969,-1.84094 2.48594,-3.41312c-0.05375,-1.57219 -1.16906,-2.91594 -2.70094,-3.25188c-12.24156,-2.4725 -21.41937,-12.44312 -23.5425,-24.8325c3.46688,1.19594 7.01438,2.13656 10.8575,2.2575c1.57219,0.09406 2.99656,-0.88687 3.48031,-2.37844c0.48375,-1.49156 -0.1075,-3.13094 -1.43781,-3.96406c-8.17,-5.46906 -13.545,-14.78125 -13.545,-25.37c0,-3.92375 1.02125,-7.525 2.365,-10.965c17.2,18.87969 41.28,31.41688 68.4775,32.7875c1.075,0.05375 2.12313,-0.38969 2.82188,-1.20937c0.69875,-0.83313 0.9675,-1.935 0.72562,-2.98313c-0.52406,-2.23062 -0.86,-4.59562 -0.86,-6.9875c0,-16.85062 13.57188,-30.4225 30.4225,-30.4225z"></path></g></g></svg> <span>Twitter</span></li>
+
+
+</ul>
+
+
+</div>
+    </span>
+
+<br>
+
+
+  
+	
+	<img src="pictures/logo.png" width="250px" style="right: 0;position: absolute;margin-top: -200px;margin-right: 50px;">
+	</div>
+	<div style="background-color: #1d1d1d;height:20px;width: 100%;position: relative;color: white;text-align: center;font-size: 12px;padding: 13px 0px 12px 0px;">
+		<div style="opacity: 0.4;">
+  2020 Bakewithtrust.com | All right reserved. T&C | Privacy Policy |<tt>
+  A Subsidiary of Nik's Baker and Pepperidge farm</tt>
+			</div>
+
+
+<a class="gotopbtn" href="#"><img src="https://img.icons8.com/material-sharp/24/000000/thick-arrow-pointing-up.png"/></a>
+
+
+
+	</div>
+
+</footer>
+
+</body>
+</html>

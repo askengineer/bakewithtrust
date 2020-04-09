@@ -1,0 +1,52 @@
+*{
+margin:0px;
+font-family:lato;
+
+
+}
+::selection{
+	background-color: white;
+
+}
+.st{
+	position:sticky;
+	z-index: 1;
+	top:0;
+}
+a{
+text-decoration: none;
+color: black;
+
+}
+.back{
+	width: 100%;
+	height: 700px;
+	background-image: url(https://wallpaperaccess.com/full/1892327.jpg);
+	background-size: 100% 100%;
+}
+.inr{
+	transition: 50% 50%;
+	top: 52%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-60%);
+
+}
+.b1{
+	padding: 12px 22px;
+	margin-top: 20px;
+	background-color: #800000;
+	color: white;
+	letter-spacing: 3px;
+	border: none;
+	cursor: pointer; 
+
+}
+.b1:hover{
+	background-color: white;
+	border: 2px red solid;
+	color: #800000;
+	font-weight: bold;
+}
+
+
